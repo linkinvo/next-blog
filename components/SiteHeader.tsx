@@ -35,7 +35,6 @@ export const SiteHeader = () => {
           <div className="flex sm:hidden">
           <button
           className='inline-flex p-3 rounded lg:hidden text-white ml-auto hover:text-white outline-none'
-
           type='button'
           onClick={handleClick}
         >
@@ -188,10 +187,10 @@ export const SiteHeader = () => {
             <img  className='h-full w-full object-cover' src="images/avatar.png" alt="avatar" />
             </button>
             {imgUser ?
-            <div className='mt-3 sm:bg-white sm:border sm:rounded-lg sm:absolute  sm:mt-3 sm:right-0 sm:w-48 sm:py-2 sm:shadow-xl'>
+            <div className='mt-3 sm:bg-white sm:border sm:rounded-lg sm:absolute sm:mt-3 sm:right-0 sm:w-48 sm:py-2 sm:shadow-xl'>
               <a href="#" className='block text-gray-400 hover:text-white sm:text-gray-800 sm:mt-0 sm:px-4 sm:py-2 sm:hover:bg-indigo-500'>Account Settings</a>
-              <a href="#" className=' block text-gray-400 hover:text-white sm:text-gray-800 sm:mt-0 sm:px-4 sm:py-2 sm:hover:bg-indigo-500'>Support</a>
-              <a href="#" className=' block text-gray-400 hover:text-white sm:text-gray-800 sm:mt-0 sm:px-4 sm:py-2 sm:hover:bg-indigo-500'>Sign out</a>
+              <a href="#" className='mt-3 block text-gray-400 hover:text-white sm:text-gray-800 sm:mt-0 sm:px-4 sm:py-2 sm:hover:bg-indigo-500'>Support</a>
+              <a href="#" className='mt-3 block text-gray-400 hover:text-white sm:text-gray-800 sm:mt-0 sm:px-4 sm:py-2 sm:hover:bg-indigo-500'>Sign out</a>
             </div>
             : ""            
           }

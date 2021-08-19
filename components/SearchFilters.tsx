@@ -9,7 +9,7 @@ const SearchFilters = () => {
     return (
         <>
     <section className="bg-gray-800 xl:w-72">
-    <div className='flex justify-between bg-gray-800 px-4 py-3 xl:hidden'>
+    <div className='flex justify-between bg-gray-800 px-4 py-3 '>
         <div className='relative max-w-xs w-full'>
             <div className='absolute inset-y-0 left-0 flex items-center pl-3'>
         <svg className='h-6 w-6 fill-current text-gray-600' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -149,8 +149,6 @@ const SearchFilters = () => {
     : ''
     
     }
-        
-
     </section>
         </>
     );
